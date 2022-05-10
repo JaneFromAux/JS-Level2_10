@@ -21,3 +21,42 @@ button {
 div {
     border-radius: 5px;
 }
+
+.small {
+    color: green;
+    border: 5px solid grey;
+    border-radius: 20px;
+    width: 17vw;
+    transition: all 2.5s;
+}
+
+.middle {
+    color: green;
+    border: 15px solid grey;
+    border-radius: 20px;
+    width: 17vw;
+    transition: all 2.5s;
+}
+
+.big {
+    color: green;
+    border: 40px ridge green;
+    border-radius: 20px;
+    width: 47vw;
+    font-size: 8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: biggy;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition: all 2.5s;
+}
+
+@keyframes biggy {
+    0% {
+        color: green;
+    }
+
+    100% {
+        color: yellow;
+    }
+}
